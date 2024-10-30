@@ -13,7 +13,11 @@ poetry install
 ```python
 from youtube_mp3.downloader import download_audio
 
-mp3_path = download_audio("YOUR_YOUTUBE_URL")
+download_audio("https://youtu.be/example")
+```
+
+```bash
+cli.py "https://youtu.be/example" -o ./downloads
 ```
 
 ## Requirements
