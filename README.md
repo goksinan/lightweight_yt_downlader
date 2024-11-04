@@ -20,6 +20,12 @@ download_audio("https://youtu.be/example")
 cli.py "https://youtu.be/example" -o ./downloads
 ```
 
+or for batch downloading, put all URLs in a txt file:
+
+```bash
+cli.py "all_urls.txt" -o ./downloads
+```
+
 ## Requirements
 - Python 3.9+
 - FFmpeg
